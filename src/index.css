@@ -1,5 +1,12 @@
-body {
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +14,112 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.kanzleiLogo {
+  width: 150px;
+}
+
+@media only screen and (min-width: 600px) {
+  .kanzleiLogo {
+    width: 250px;
+  }
+}
+main {
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+.contactLink {
+  text-decoration: none;
+  padding: 5px 25px 3px 25px;
+  background-color: #D36A6A;
+  color: white;
+  border-radius: 10px;
+}
+
+.contactLink span {
+  display: none;
+}
+
+.contactLink img {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 800px) {
+  .contactLink {
+    padding: 15px 25px;
+  }
+
+  .contactLink span {
+    display: inherit;
+  }
+  
+  .contactLink img {
+    display: none;
+  }
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  height: calc(100vh - 90px);
+  width: 100%;
+  background-color: white;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 20px;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
 }
