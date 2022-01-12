@@ -12,6 +12,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
 
 .kanzleiLogo {
@@ -26,14 +28,24 @@ body {
 main {
   width: 100%;
   height: calc(100vh - 90px);
+  position: relative;
+  overflow: hidden;
+}
+
+.mainBackground {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.mainContent {
+  position: absolute;
+  top: 10%;
+  padding: 30px;
 }
 
 .contactLink {
   text-decoration: none;
-  padding: 5px 25px 3px 25px;
-  background-color: #D36A6A;
-  color: white;
-  border-radius: 10px;
 }
 
 .contactLink span {
@@ -42,11 +54,15 @@ main {
 
 .contactLink img {
   display: inline-block;
+  width: 45px;
 }
 
 @media only screen and (min-width: 800px) {
   .contactLink {
     padding: 15px 25px;
+    background-color: #D36A6A;
+    color: white;
+    border-radius: 10px;
   }
 
   .contactLink span {
@@ -55,6 +71,10 @@ main {
   
   .contactLink img {
     display: none;
+  }
+
+  .mainContent {
+    width: 60%;
   }
 }
 
@@ -101,6 +121,7 @@ main {
   height: calc(100vh - 90px);
   width: 100%;
   background-color: white;
+  z-index: 1;
 }
 
 .mobile-menu li {
@@ -114,7 +135,7 @@ main {
   color: black;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1380px) {
   header nav {
     display: none;
   }

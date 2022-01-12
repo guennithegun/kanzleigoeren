@@ -33,7 +33,7 @@ function App() {
     //backgroundPosition: 'center',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center'
+    //justifyContent: 'center'
   }
 
   //states
@@ -50,7 +50,8 @@ function App() {
         <Logo />
       </div>
       <main style={mainBackground}>
-        <div>
+        <img className='mainBackground' src={process.env.PUBLIC_URL + '/business.svg'} />
+        <div className='mainContent'>
           <p>Rechtsanwalt</p>
           <h1>Davut Gören</h1>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
