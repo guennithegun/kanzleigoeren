@@ -190,6 +190,7 @@ main {
   top: 90px;
   left: 0;
   height: calc(100vh - 90px);
+  min-height: 400px;
   width: 100%;
   background-color: white;
   z-index: 1;
@@ -223,12 +224,12 @@ main {
   flex-direction: column;
 }
 
-.references__headline, .law__headline {
+.references__headline, .law__headline, .company__headline, .contact__headline {
   width: 100%;
   text-align: center;
 }
 
-.references__headline h2, .law__headline h2 {
+.references__headline h2, .law__headline h2, .company__headline h2, .contact__headline h2 {
   margin-bottom: 30px;
 }
 
@@ -280,4 +281,57 @@ main {
   .law__elements-item {
     width: 30%;
   }
+}
+
+.company__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.company__content-image, .company__content-text {
+  width: 100%;
+}
+
+.company__content-text p {
+  margin: 0 0 35px 0;
+}
+
+.company__content-image img {
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  .company__content-image, .company__content-text {
+    width: 45%;
+  }
+
+  .company__content-text {
+    margin: 0 20px 0 0;
+  }
+
+  .company__content-image img {
+    margin: 0;
+  }
+
+  .company__content {
+    align-items: center;
+  }
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__content-item {
+  display: flex;
+}
+
+.contact__content-item p:first-child {
+  font-weight: bold;
+  margin: 0 35px 0 0;
+  min-width: 113px;
 }

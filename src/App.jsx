@@ -4,7 +4,9 @@ import Logo from './components/logo/logo';
 import ContactButton from './components/buttons/contactButton/contactButton';
 import Main from './components/main/main';
 import References from './components/references/references';
-import WorkAreas from './components/workareas/workareas'
+import WorkAreas from './components/workareas/workareas';
+import Company from './components/company/company';
+import Contact from './components/contact/contact';
 
 function App() {
   // styles
@@ -45,6 +47,8 @@ function App() {
       <Main />
       <References />
       <WorkAreas />
+      <Company />
+      <Contact />
     </div>
   );
 }
