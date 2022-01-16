@@ -3,7 +3,8 @@ import MobileNav from './components/navigation/mobileNavigation';
 import Logo from './components/logo/logo';
 import ContactButton from './components/buttons/contactButton/contactButton';
 import Main from './components/main/main';
-import { useState } from 'react';
+import References from './components/references/references';
+import WorkAreas from './components/workareas/workareas'
 
 function App() {
   // styles
@@ -42,6 +43,8 @@ function App() {
         <Logo />
       </div>
       <Main />
+      <References />
+      <WorkAreas />
     </div>
   );
 }
