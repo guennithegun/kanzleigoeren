@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="pageHeader" style={headerStyles} >
+      <header id='home' className="pageHeader" style={headerStyles} >
         <Navigation />
         <MobileNav />
         <ContactButton contactText={contactButtonText} />
