@@ -27,15 +27,6 @@ function App() {
     zIndex: '-1'
   };
 
-  const mainBackground = {
-    //backgroundImage: `url(${process.env.PUBLIC_URL + '/flensburgNacht.jpg'})`,
-    //backgroundRepeat: 'none',
-    //backgroundPosition: 'center',
-    display: 'flex',
-    alignItems: 'center',
-    //justifyContent: 'center'
-  }
-
   //states
   const [contactButtonText, setContactButtonText] = useState('Kontakt aufnehmen');
 
@@ -49,12 +40,15 @@ function App() {
       <div className='logoWrapper' style={logoWrapperStyles}>
         <Logo />
       </div>
-      <main style={mainBackground}>
-        <img className='mainBackground' src={process.env.PUBLIC_URL + '/business.svg'} />
+      <main>
+        <img className='mainBackground' src={process.env.PUBLIC_URL + '/DavutGoeren.jpg'} />
         <div className='mainContent'>
           <p>Rechtsanwalt</p>
           <h1>Davut Gören</h1>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+          <p>Kompetente und effiziente Rechtsberatung. Gemeinsam finden wir eine Lösung.</p>
+          <div className='mainContent__link'>
+            <a href='#referenzen'>Mehr erfahren</a>
+          </div>
         </div>
       </main>
     </div>
