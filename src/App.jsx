@@ -2,6 +2,7 @@ import Navigation from './components/navigation/navigation';
 import MobileNav from './components/navigation/mobileNavigation';
 import Logo from './components/logo/logo';
 import ContactButton from './components/buttons/contactButton/contactButton';
+import Main from './components/main/main';
 import { useState } from 'react';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
   };
 
   //states
-  const [contactButtonText, setContactButtonText] = useState('Kontakt aufnehmen');
+  const contactButtonText = 'Kontakt aufnehmen';
 
   return (
     <div className="App">
@@ -40,17 +41,7 @@ function App() {
       <div className='logoWrapper' style={logoWrapperStyles}>
         <Logo />
       </div>
-      <main>
-        <img className='mainBackground' src={process.env.PUBLIC_URL + '/DavutGoeren.jpg'} />
-        <div className='mainContent'>
-          <p>Rechtsanwalt</p>
-          <h1>Davut Gören</h1>
-          <p>Kompetente und effiziente Rechtsberatung. Gemeinsam finden wir eine Lösung.</p>
-          <div className='mainContent__link'>
-            <a href='#referenzen'>Mehr erfahren</a>
-          </div>
-        </div>
-      </main>
+      <Main />
     </div>
   );
 }
