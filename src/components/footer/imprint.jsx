@@ -1,29 +1,29 @@
 const ImprintContent = () => {
-    return(
+    return (
         <div>
             <h2>Impressum</h2>
             <p>
-                Kanzlei Gören<br/>
-                Davut Gören, Rechtsanwalt<br/>
-                Vor d. Kuppe 40,<br/>
+                Kanzlei Gören<br />
+                Davut Gören, Rechtsanwalt<br />
+                Vor d. Kuppe 40,<br />
                 24943 Flensburg
             </p>
             <p>
-                Kontakt:<br/>
-                Telefon: <a href='tel:0461 40681173'>046140681173</a><br/>
-                E-Mail: <a href='mailto:info@kanzleigoeren.de'>info@kanzleigoeren.de</a><br/>
+                Kontakt:<br />
+                Telefon: <a href='tel:0461 40681173'>046140681173</a><br />
+                E-Mail: <a href='mailto:info@kanzleigoeren.de'>info@kanzleigoeren.de</a><br />
                 Website: <a href='https://www.kanzleigoeren.de'>www.kanzleigoeren.de</a>
             </p>
-            
+
             <p>Rechtsanwalt Davut Gören ist Mitglied in der Schleswig-Holsteinischen Rechtsanwaltskammer:</p>
 
-            Schleswig-Holsteinische Rechtsanwaltskammer<br/>
-            Gottorfstraße 13<br/>
-            24837 Schleswig<br/>
-            T 04621/93 91-0<br/>
-            F 04621/93 91-26<br/>
-            info@rak-sh.de<br/>
-            www.rak-sh.de<br/>
+            Schleswig-Holsteinische Rechtsanwaltskammer<br />
+            Gottorfstraße 13<br />
+            24837 Schleswig<br />
+            T 04621/93 91-0<br />
+            F 04621/93 91-26<br />
+            info@rak-sh.de<br />
+            www.rak-sh.de<br />
 
             <p>
                 Rechtsgrundlage für die Tätigkeit der Rechtsanwaltskammer ist die Bundesrechtsanwaltsordnung (BRAO). Den Text
@@ -44,19 +44,19 @@ const ImprintContent = () => {
                 BRAO).
             </p>
 
-            Berufshaftpflichtversicherung:<br/>
-            R+V Allgemeine Versicherung AG<br/>
-            Mittlerer Pfad 24, 70499 Stuttgart<br/>
-            räumlicher Geltungsbereich: Deutschland<br/>
-            <br/>
+            Berufshaftpflichtversicherung:<br />
+            mailo Versicherung AG<br />
+            Riehler Straße 1<br />
+            50668 Köln<br />
+            <br />
 
             <h1>Datenschutzerklärung</h1>
             <h2>§ 1 Informationen über die Erhebung personenbezogener Daten</h2>
             <p>1. Im Folgenden wird über die Erhebung personenbezogener Daten bei Nutzung dieser Website informiert.
                 Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z.B Name, Adresse,
                 E-Mail-Adressen, Nutzerverhalten.</p>
-            <p>2. Verantwortlicher gem. Art. 4 Abs. 7 EU-Datenschutz-Grundverordnung (DSGVO) ist:<br/>Günther von Häfen<br/>
-                Hinter der Lieth 26c<br/> 22529 Hamburg<br/><br/>E-Mail: hello@online-kanzlei.io<br/>Telefon: 017670387819</p>
+            <p>2. Verantwortlicher gem. Art. 4 Abs. 7 EU-Datenschutz-Grundverordnung (DSGVO) ist:<br />Davut Gören<br />
+                Vor d. Kuppe 40,<br />24943 Flensburg<br />E-Mail: info@kanzleigoeren.de<br />Telefon: 046140681173</p>
             <p>3. Falls wir Ihre Einwilligung für die Verarbeitung personenbezogenen Daten eingeholt haben, ist Art. 6 Abs.
                 1 S. 1 lit. a) DS-GVO Rechtsgrundlage.</p>
             <p>4. Ist die Verarbeitung Ihrer Daten zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher

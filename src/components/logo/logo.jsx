@@ -1,9 +1,8 @@
-function Logo() {
-    const imageStyle = {
-        width: '250px'
-    };
+const Logo = () => {
     return (
-        <img src={process.env.PUBLIC_URL + '/kanzlei-logo.jpg'} alt="Kanzlei Gören mit rotem Rand" className='kanzleiLogo'  />
+        <a href='#home'>
+            <img src={process.env.PUBLIC_URL + '/kanzlei-logo.jpg'} alt="Kanzlei Gören mit rotem Rand" className='kanzleiLogo' />
+        </a>
     );
 }
 

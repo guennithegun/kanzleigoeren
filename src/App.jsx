@@ -11,6 +11,12 @@ import Footer from './components/footer/footer';
 
 function App() {
   // styles
+  const headerWrapper = {
+    position: 'sticky',
+    top: '0',
+    zIndex: '1'
+  };
+
   const headerStyles = {
     width: '100%',
     height: '90px',
@@ -28,8 +34,9 @@ function App() {
     justifyContent: 'center',
     alignItems: 'center',
     top: '0',
-    zIndex: '-1',
-    position: 'absolute'
+    /*zIndex: '-1',*/
+    position: 'absolute',
+    backgroundColor: 'white'
   };
 
   //states
@@ -37,13 +44,15 @@ function App() {
 
   return (
     <div className="App">
-      <header id='home' className="pageHeader" style={headerStyles} >
-        <Navigation />
-        <MobileNav />
-        <ContactButton contactText={contactButtonText} />
-      </header>
-      <div className='logoWrapper' style={logoWrapperStyles}>
-        <Logo />
+      <div style={headerWrapper}>
+        <header className="pageHeader" style={headerStyles} >
+          <Navigation />
+          <MobileNav />
+          <ContactButton contactText={contactButtonText} />
+        </header>
+        <div className='logoWrapper' style={logoWrapperStyles}>
+          <Logo />
+        </div>
       </div>
       <Main />
       <References />

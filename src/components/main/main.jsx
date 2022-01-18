@@ -1,11 +1,11 @@
 const Main = () => {
     return (
-        <main>
+        <main id='home'>
             <img className='mainBackground' src={process.env.PUBLIC_URL + '/DavutGoeren.jpg'} alt='Portraitfoto von Davon Gören' />
             <div className='mainContent'>
                 <p>Rechtsanwalt</p>
                 <h1>Davut Gören</h1>
-                <p><mark>Kompetente und effiziente <br/>Rechtsberatung. <br/>Gemeinsam finden wir eine Lösung.</mark></p>
+                <p><mark>Kompetente und effiziente <br />Rechtsberatung. <br />Gemeinsam finden wir eine Lösung.</mark></p>
                 <div className='mainContent__link'>
                     <a href='#references'>Mehr erfahren</a>
                 </div>
