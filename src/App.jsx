@@ -7,6 +7,7 @@ import References from './components/references/references';
 import WorkAreas from './components/workareas/workareas';
 import Company from './components/company/company';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   // styles
@@ -26,9 +27,9 @@ function App() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    position: 'absolute',
     top: '0',
-    zIndex: '-1'
+    zIndex: '-1',
+    position: 'absolute'
   };
 
   //states
@@ -49,6 +50,7 @@ function App() {
       <WorkAreas />
       <Company />
       <Contact />
+      <Footer />
     </div>
   );
 }

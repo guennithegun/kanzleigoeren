@@ -17,11 +17,11 @@ const Contact = () => {
                 </div>
                 <div className='contact__content-item'>
                     <p>Telefon</p>
-                    <p><mark>+49 461 40681173</mark></p>
+                    <p><mark><a href='tel:+4946140681173'>+49 461 40681173</a></mark></p>
                 </div>
                 <div className='contact__content-item'>
                     <p>Email</p>
-                    <p><mark>info@kanzleigoeren.de</mark></p>
+                    <p><mark><a href='mailto:info@kanzleigoeren.de'>info@kanzleigoeren.de</a></mark></p>
                 </div>
             </div>
         </section>
