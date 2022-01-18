@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kanzleigoeren/static/css/main.4e7ae12d.css",
-    "main.js": "/kanzleigoeren/static/js/main.9acd4954.js",
+    "main.css": "/kanzleigoeren/static/css/main.0824a883.css",
+    "main.js": "/kanzleigoeren/static/js/main.0ceb0b66.js",
     "index.html": "/kanzleigoeren/index.html",
-    "main.4e7ae12d.css.map": "/kanzleigoeren/static/css/main.4e7ae12d.css.map",
-    "main.9acd4954.js.map": "/kanzleigoeren/static/js/main.9acd4954.js.map"
+    "main.0824a883.css.map": "/kanzleigoeren/static/css/main.0824a883.css.map",
+    "main.0ceb0b66.js.map": "/kanzleigoeren/static/js/main.0ceb0b66.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7ae12d.css",
-    "static/js/main.9acd4954.js"
+    "static/css/main.0824a883.css",
+    "static/js/main.0ceb0b66.js"
   ]
 }
