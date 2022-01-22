@@ -39,7 +39,7 @@ footer {
   min-height: 100px;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background-color: #f2f3f4;
 }
 
