@@ -1,7 +1,7 @@
 const ImprintContent = () => {
     return (
-        <div>
-            <h2>Impressum</h2>
+        <div className='imprint__content-text' >
+            <h3>Impressum</h3>
             <p>
                 Kanzlei Gören<br />
                 Davut Gören, Rechtsanwalt<br />
@@ -16,15 +16,15 @@ const ImprintContent = () => {
             </p>
 
             <p>Rechtsanwalt Davut Gören ist Mitglied in der Schleswig-Holsteinischen Rechtsanwaltskammer:</p>
-
-            Schleswig-Holsteinische Rechtsanwaltskammer<br />
-            Gottorfstraße 13<br />
-            24837 Schleswig<br />
-            T 04621/93 91-0<br />
-            F 04621/93 91-26<br />
-            info@rak-sh.de<br />
-            www.rak-sh.de<br />
-
+            <p>
+                Schleswig-Holsteinische Rechtsanwaltskammer<br />
+                Gottorfstraße 13<br />
+                24837 Schleswig<br />
+                T 04621/93 91-0<br />
+                F 04621/93 91-26<br />
+                info@rak-sh.de<br />
+                www.rak-sh.de<br />
+            </p>
             <p>
                 Rechtsgrundlage für die Tätigkeit der Rechtsanwaltskammer ist die Bundesrechtsanwaltsordnung (BRAO). Den Text
                 der BRAO finden Sie u.a. auf der Internetseite der Bundesrechtsanwaltskammer unter www.brak.de.
@@ -44,14 +44,14 @@ const ImprintContent = () => {
                 BRAO).
             </p>
 
-            Berufshaftpflichtversicherung:<br />
+            Berufshaftpflichtversicherung Davut Gören:<br />
             mailo Versicherung AG<br />
             Riehler Straße 1<br />
             50668 Köln<br />
             <br />
 
-            <h1>Datenschutzerklärung</h1>
-            <h2>§ 1 Informationen über die Erhebung personenbezogener Daten</h2>
+            <h3>Datenschutzerklärung</h3>
+            <h4>§ 1 Informationen über die Erhebung personenbezogener Daten</h4>
             <p>1. Im Folgenden wird über die Erhebung personenbezogener Daten bei Nutzung dieser Website informiert.
                 Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z.B Name, Adresse,
                 E-Mail-Adressen, Nutzerverhalten.</p>
@@ -72,7 +72,7 @@ const ImprintContent = () => {
             <p>7. Falls wir für einzelne Funktionen unseres Angebotes auf beauftragte Dienstleister zurückgreifen oder Ihre
                 Daten für werbliche Zwecke nutzen möchten, werden wir Sie untenstehend im Detail über die jeweiligen
                 Vorgänge informieren. Dabei nennen wir auch die festgelegten Kriterien der Speicherdauer.
-            </p><h2>§ 2 Ihre Rechte</h2>
+            </p><h4>§ 2 Ihre Rechte</h4>
             <p>1. Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:</p>
             <ul>
                 <li>Recht auf Auskunft,</li>
@@ -83,7 +83,7 @@ const ImprintContent = () => {
             </ul>
             <p>2. Sie haben zudem das Recht , sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer
                 personenbezogenen Daten durch uns zu beschweren.</p>
-            <h2>§ 3 Erhebung personenbezogener Daten bei Besuch dieser Website</h2>
+            <h4>§ 3 Erhebung personenbezogener Daten bei Besuch dieser Website</h4>
             <p>Bei der bloß informatorischen Nutzung dieser Webseite, also wenn Sie sich nicht registrieren oder uns
                 anderweitig Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr Browser an
                 unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die

@@ -8,19 +8,20 @@ const Contact = () => {
             </div>
             <div className='contact__content'>
                 <div className='contact__content-item'>
-                    <p>Straße</p>
-                    <p><mark>Vor d. Kuppe 40</mark></p>
+                    <img src={process.env.PUBLIC_URL + '/location-pin.svg'} alt="Stecknadel Karte" />
+                    <p>
+                        <mark>
+                            Vor d. Kuppe 40<br />
+                            24943 Flensburg
+                        </mark>
+                    </p>
                 </div>
                 <div className='contact__content-item'>
-                    <p>Ort</p>
-                    <p><mark>24943 Flensburg</mark></p>
-                </div>
-                <div className='contact__content-item'>
-                    <p>Telefon</p>
+                <img src={process.env.PUBLIC_URL + '/phone.svg'} alt="Telefon" />
                     <p><mark><a href='tel:+4946140681173'>+49 461 40681173</a></mark></p>
                 </div>
                 <div className='contact__content-item'>
-                    <p>Email</p>
+                    <img src={process.env.PUBLIC_URL + '/mail-outline.svg'} alt="Briefumschlag" />
                     <p><mark><a href='mailto:info@kanzleigoeren.de'>info@kanzleigoeren.de</a></mark></p>
                 </div>
             </div>
