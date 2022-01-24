@@ -204,9 +204,6 @@ main {
 
 .open .mobile-menu {
   display: block;
-  /*flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;*/
 }
 
 .mobile-menu {
