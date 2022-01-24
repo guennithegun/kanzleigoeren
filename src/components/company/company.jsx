@@ -8,13 +8,16 @@ const Company = () => {
                 <div className='company__content'>
                     <div className='company__content-text'>
                         <p>
-                            Herr Davut Gören ist seit 2018 als Rechtsanwalt tätig. Nach seiner kaufmännischen Ausbildung absolvierte Herr Gören sein Studium an der Christian-Albrechts-Universität zu Kiel. 
+                            Seit 2018 bin ich als Rechtsanwalt tätig. Nach einer kaufmännischen Ausbildung absolvierte ich an der Christian-Albrechts-Universität zu Kiel das Studium der Rechtswissenschaften.
                         </p>
                         <p>
-                            Rechtsanwalt Gören hat seinen Schwerpunkt im Allgemeinen Zivilrecht, Arbeitsrecht, Miet- und Wohnungseigentumsrecht sowie Verkehrsrecht. Zur weiteren Spezialisierung absolvierte Rechtsanwalt Gören 2020 erfolgreich  den Fachanwaltslehrgang  für Arbeitsrecht, um ein breites Spektrum an individual- und kollektivarbeitsrechtliche Themen zu bearbeiten. 
+                            Schwerpunktmäßig berate ich Sie zu allen Fragen rund um das Arbeitsrecht. Zur Vertiefung meiner Kenntnisse absolvierte ich 2020 erfolgreich den Fachanwaltslehrgang für Arbeitsrecht, um ein breiteres Spektrum an individual- und kollektivarbeitsrechtlichen Themen bearbeiten und Sie optimal beraten zu können.
                         </p>
                         <p>
-                            Er ist verheiratet und Vater von drei Kindern. 
+                            Daneben berate ich Sie sehr gerne in den Bereichen des allgemeinen Zivilrechts, Miet- und Wohnungseigentumsrechts sowie Verkehrsrechts.
+                        </p>
+                        <p>
+                            Ich bin verheiratet und Vater von drei Kindern. 
                         </p>
                     </div>
                     <div className='company__content-image'>

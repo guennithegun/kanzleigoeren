@@ -203,10 +203,10 @@ main {
 }
 
 .open .mobile-menu {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /*flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start;*/
 }
 
 .mobile-menu {
@@ -215,16 +215,16 @@ main {
   top: 90px;
   left: 0;
   height: calc(100vh - 90px);
-  min-height: 400px;
+  min-height: 500px;
   width: 100%;
   background-color: white;
   z-index: 1;
 }
 
 .mobile-menu li {
-  margin-bottom: 10px;
   list-style: none;
-  padding: 20px;
+  padding: 20px 20px;
+  text-align: center;
 }
 
 .mobile-menu li a {
@@ -236,7 +236,7 @@ header nav {
   z-index: 1;
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1650px) {
   header nav {
     display: none;
   }
@@ -253,12 +253,12 @@ header nav {
   flex-direction: column;
 }
 
-.references__headline, .law__headline, .company__headline, .contact__headline, .imprint__headline {
+.references__headline, .law__headline, .company__headline, .contact__headline, .imprint__headline, .downloads__headline {
   width: 100%;
   text-align: center;
 }
 
-.references__headline h2, .law__headline h2, .company__headline h2, .contact__headline h2, .imprint__headline h2 {
+.references__headline h2, .law__headline h2, .company__headline h2, .contact__headline h2, .imprint__headline h2, .downloads__headline h2 {
   margin-bottom: 30px;
 }
 
@@ -275,7 +275,16 @@ header nav {
   font-size: 1.2em;
 }
 
+.law {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .law__elements {
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -308,7 +317,7 @@ header nav {
 
 @media only screen and (min-width: 1000px) {
   .law__elements-item {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -373,6 +382,28 @@ header nav {
 
 .contact__content-item p {
   min-width: 250px;
+}
+
+.downloads__content {
+  display: flex;
+  justify-content: center;
+}
+
+.downloads__content img {
+  width: 3em;
+  height: 3em;
+}
+
+.downloads__content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+.downloads__content span {
+  padding: 0 0 0 20px;
 }
 
 .imprint button {

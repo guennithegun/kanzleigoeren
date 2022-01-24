@@ -7,6 +7,7 @@ import References from './components/references/references';
 import WorkAreas from './components/workareas/workareas';
 import Company from './components/company/company';
 import Contact from './components/contact/contact';
+import Downloads from './components/downloads/downloads';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       <WorkAreas />
       <Company />
       <Contact />
+      <Downloads />
       <Footer />
     </div>
   );

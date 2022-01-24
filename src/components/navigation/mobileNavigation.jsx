@@ -14,6 +14,7 @@ const MobileNav = () => {
                 <li><a href='#law'>Rechtsgebiete</a></li>
                 <li><a href='#company'>Kanzlei</a></li>
                 <li><a href='#contact'>Kontakt</a></li>
+                <li><a href='#downloads'>Downloads</a></li>
             </ul>
         </div>
     );

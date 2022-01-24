@@ -22,14 +22,14 @@ const WorkAreas = () => {
                         <img src={process.env.PUBLIC_URL + '/car.svg'} alt='Auto' />
                         <h3>Verkehrsrecht</h3>
                     </div>
-                    <div className='law__elements-item'>
+                    {/*<div className='law__elements-item'>
                         <img src={process.env.PUBLIC_URL + '/earth.svg'} alt='Globus' />
                         <h3>Ausländerrecht</h3>
-                    </div>
+    </div>*/}
                 </div>
                 <div className='law__elements-description'>
                     <p>
-                        Rechtsanwalt Davut Gören berät Sie auf den Gebieten des allgemeinen Zivilrechts, des Arbeitsrechts, Miet- und Wohnungseigentumsrecht, Verkehrsrecht sowie Ausländerrecht.
+                        Sehr gerne berate ich Sie zu allen Rechtsfragen auf den Gebieten des allgemeinen Zivilrechts, des Arbeitsrechts, Miet- und Wohnungseigentumsrecht sowie Verkehrsrecht.
                     </p>
                 </div>
             </div>
