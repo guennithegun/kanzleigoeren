@@ -7,7 +7,7 @@ const Downloads = () => {
                 </div>
                 <div className='downloads__content'>
                     <a href={process.env.PUBLIC_URL + '/Vollmacht.pdf'} download>
-                        <img src={process.env.PUBLIC_URL + '/download.svg'} alt='Download icon' />
+                        <img src={process.env.PUBLIC_URL + '/img/download.svg'} alt='Download icon' />
                         <span>Vollmacht</span>
                     </a>
                 </div>

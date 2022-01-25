@@ -10,8 +10,8 @@ const Footer = () => {
         <footer>
             <div className='socialMedia'>
                 <div>
-                    <a href='https://www.xing.com/profile/Davut_Goeren2'><img src={process.env.PUBLIC_URL + '/xing128.png'} alt="Xing Icon" /></a>
-                    <a href='https://de.linkedin.com/in/davut-gören-873b931b3'><img src={process.env.PUBLIC_URL + '/linkedin128.png'} alt="LinkedIn Icon" /></a>
+                    <a href='https://www.xing.com/profile/Davut_Goeren2'><img src={process.env.PUBLIC_URL + '/img/xing128.png'} alt="Xing Icon" /></a>
+                    <a href='https://de.linkedin.com/in/davut-gören-873b931b3'><img src={process.env.PUBLIC_URL + '/img/linkedin128.png'} alt="LinkedIn Icon" /></a>
                 </div>
             </div>
             <div className='imprint'>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div id='modal' className='imprint__content'>
                     <div className='imprint__content-close'>
-                        <img id='close' src={process.env.PUBLIC_URL + '/cross-solid.svg'} alt='Kreuz zum schließen' onClick={toggleModal} />
+                        <img id='close' src={process.env.PUBLIC_URL + '/img/cross-solid.svg'} alt='Kreuz zum schließen' onClick={toggleModal} />
                     </div>
                     <div className='imprint__headline'>
                         <h2>Impressum und Datenschutz</h2>

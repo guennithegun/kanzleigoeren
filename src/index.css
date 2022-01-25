@@ -30,7 +30,7 @@ h3 {
 
 section {
   width: 100%;
-  padding: 50px 30px;
+  padding: 80px 30px 50px 30px;
 }
 
 footer {
@@ -304,12 +304,14 @@ header nav {
 .law__elements-description {
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .law__elements-description p {
   max-width: 1200px;
+  padding: 10px 0;
 }
 
 @media only screen and (min-width: 1000px) {

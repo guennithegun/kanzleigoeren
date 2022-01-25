@@ -21,7 +21,7 @@ const Company = () => {
                         </p>
                     </div>
                     <div className='company__content-image'>
-                        <img src={process.env.PUBLIC_URL + '/DavutGoeren_whiteBackground.jpg'} alt='Davut Gören Portrait mit weißem Hintergrund' />
+                        <img src={process.env.PUBLIC_URL + '/img/DavutGoeren_whiteBackground.jpg'} alt='Davut Gören Portrait mit weißem Hintergrund' />
                     </div>
                 </div>
             </div>

@@ -35,7 +35,6 @@ function App() {
     justifyContent: 'center',
     alignItems: 'center',
     top: '0',
-    /*zIndex: '-1',*/
     position: 'absolute',
     backgroundColor: 'white'
   };

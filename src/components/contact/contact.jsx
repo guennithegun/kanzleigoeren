@@ -8,7 +8,7 @@ const Contact = () => {
             </div>
             <div className='contact__content'>
                 <div className='contact__content-item'>
-                    <img src={process.env.PUBLIC_URL + '/location-pin.svg'} alt="Stecknadel Karte" />
+                    <img src={process.env.PUBLIC_URL + '/img/location-pin.svg'} alt="Stecknadel Karte" />
                     <p>
                         <mark>
                             Vor d. Kuppe 40<br />
@@ -17,11 +17,11 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className='contact__content-item'>
-                <img src={process.env.PUBLIC_URL + '/phone.svg'} alt="Telefon" />
+                <img src={process.env.PUBLIC_URL + '/img/phone.svg'} alt="Telefon" />
                     <p><mark><a href='tel:+4946140681173'>+49 461 40681173</a></mark></p>
                 </div>
                 <div className='contact__content-item'>
-                    <img src={process.env.PUBLIC_URL + '/mail-outline.svg'} alt="Briefumschlag" />
+                    <img src={process.env.PUBLIC_URL + '/img/mail-outline.svg'} alt="Briefumschlag" />
                     <p><mark><a href='mailto:info@kanzleigoeren.de'>info@kanzleigoeren.de</a></mark></p>
                 </div>
             </div>
