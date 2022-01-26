@@ -25,10 +25,10 @@ const WorkAreas = () => {
                 </div>
                 <div className='law__elements-description'>
                     <p>
-                        Als Ihr Anwalt unterstütze und berate ich Sie zu sämtlichen Fragen und Problemstellungen, die das Zivilrecht betreffen. Mir ist ein zentrales Anliegen, Sie hier nicht nur mit fundiertem Wissen zu beraten zu vertreten, sondern schnelle und unkomplizierte Lösungen für Ihre persönlichen Bedürfnisse zu entwickeln. Zur Vermeidung von Kosten strebe ich dabei zunächst immer eine außergerichtliche Lösung an, vertrete Sie aber natürlich auch deutschlandweit vor den Zivilgerichten.
+                        Als Ihr Anwalt unterstütze und berate ich Sie zu sämtlichen Fragen und Problemstellungen, die das Zivilrecht betreffen. Mir ist ein zentrales Anliegen, Sie hier nicht nur mit fundiertem Wissen zu beraten und zu vertreten, sondern schnelle und unkomplizierte Lösungen für Ihre persönlichen Bedürfnisse zu entwickeln. Zur Vermeidung von Kosten strebe ich dabei zunächst immer eine außergerichtliche Lösung an, vertrete Sie aber natürlich auch deutschlandweit vor den Zivilgerichten.
                     </p>
                     <p>
-                        Im Allgemeinen Zivilrecht vertrete ich Sie gerne Sie auf den Gebieten des Arbeitsrechts, Miet- und Wohnungseigentumsrecht sowie Verkehrsrecht.
+                        Im Allgemeinen Zivilrecht vertrete ich Sie gerne auf den Gebieten des Arbeitsrechts, Miet- und Wohnungseigentumsrecht sowie Verkehrsrecht.
                     </p>
                 </div>
             </div>

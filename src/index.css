@@ -43,7 +43,11 @@ section:nth-child(even) {
   background-color: #f2f3f4;
 }
 
-main p, section p {
+main p {
+  font-size: 1.2em;
+}
+
+section p {
   font-size: 1.5em;
 }
 
@@ -103,16 +107,13 @@ main {
 
 .mainContent {
   position: absolute;
-  padding: 30px;
+  padding: 0 30px 50px;
   color: white;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.mainContent mark {
-  background-color:rgba(254, 255, 0, .8);
+  justify-content: flex-end;
+  top: -90px;
 }
 
 .mainContent__link {
@@ -170,6 +171,8 @@ main {
 
   .mainContent {
     max-width: 1000px;
+    justify-content: center;
+    padding: 0 30px;
   }
 }
 
@@ -381,6 +384,10 @@ header nav {
 
 .contact__content-item p {
   min-width: 250px;
+}
+
+.contact__content-item a {
+  color: black;
 }
 
 .downloads__content {
